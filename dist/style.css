@@ -156,13 +156,19 @@ img {
     font-size: 46px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .banner__content-heading {
     font-size: 40px;
   }
 }
+@media (max-width: 600px) {
+  .banner__content-heading {
+    font-size: 35px;
+  }
+}
 .banner__content-paragraph {
-  width: 484px;
+  width: 80%;
+  max-width: 484px;
   font-weight: 400;
   line-height: 28px;
 }
@@ -263,7 +269,7 @@ img {
     font-size: 40px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .process__heading {
     font-size: 30px;
   }
@@ -309,6 +315,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 60px;
 }
 @media (max-width: 1100px) {
   .mission .container__div {
@@ -407,6 +414,12 @@ img {
   .benefits__container-benefit {
     text-align: center;
     align-items: center;
+    padding: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .benefits__container-benefit {
+    padding: 20px;
   }
 }
 .benefits__container-benefit img {
@@ -491,6 +504,16 @@ img {
   line-height: 64px;
   letter-spacing: 0;
   text-align: center;
+}
+@media (max-width: 1100px) {
+  .our-team h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .our-team h2 {
+    font-size: 36px;
+  }
 }
 .our-team-members {
   display: flex;
@@ -607,9 +630,9 @@ img {
   padding: 18px 40px;
   width: 517px;
 }
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .footer__container .wave .contact__details {
-    width: 400px;
+    width: 90%;
     font-size: 13px;
     gap: 10px;
     padding: 10px;
@@ -642,7 +665,7 @@ img {
   line-height: 64px;
   margin-bottom: 14px;
 }
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   .footer__container .talk h2 {
     font-size: 40px;
   }

@@ -168,14 +168,17 @@ img {
         width: 100%;
         font-size: 46px;
       }
-      @media (max-width: 540px) {
+      @media (max-width: 720px) {
         font-size: 40px;
+      }
+      @media (max-width: 600px) {
+        font-size: 35px;
       }
     }
 
     &-paragraph {
-      width: 484px;
-      // width: 55%;
+      width: 80%;
+      max-width: 484px;
       font-weight: 400;
       line-height: 28px;
       @media (max-width: 1100px) {
@@ -280,7 +283,7 @@ img {
     @media (max-width: 1100px) {
       font-size: 40px;
     }
-    @media (max-width: 540px) {
+    @media (max-width: 720px) {
       font-size: 30px;
     }
   }
@@ -331,6 +334,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 60px;
 
     @media (max-width: 1100px) {
       text-align: center;
@@ -427,6 +431,11 @@ img {
       @media (max-width: 1100px) {
         text-align: center;
         align-items: center;
+        padding: 30px;
+      }
+
+      @media (max-width: 600px) {
+        padding: 20px;
       }
 
       img {
@@ -516,6 +525,13 @@ img {
     line-height: 64px;
     letter-spacing: 0;
     text-align: center;
+
+    @media (max-width: 1100px) {
+      font-size: 40px;
+    }
+    @media (max-width: 600px) {
+      font-size: 36px;
+    }
   }
   &-members {
     display: flex;
@@ -649,8 +665,8 @@ img {
         padding: 18px 40px;
         width: 517px;
 
-        @media (max-width: 540px) {
-          width: 400px;
+        @media (max-width: 720px) {
+          width: 90%;
           font-size: 13px;
           gap: 10px;
           padding: 10px;
@@ -682,7 +698,7 @@ img {
         font-size: 48px;
         line-height: 64px;
         margin-bottom: 14px;
-        @media (max-width: 540px) {
+        @media (max-width: 720px) {
           font-size: 40px;
         }
       }
