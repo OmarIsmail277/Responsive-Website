@@ -234,6 +234,13 @@ img {
 @media (max-width: 1100px) {
   .goals .upper__div h2 {
     font-size: 22px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .goals .upper__div h2 {
+    font-size: 20px;
+    line-height: 32px;
   }
 }
 .goals .upper__div p {
