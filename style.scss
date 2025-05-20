@@ -333,7 +333,7 @@ img {
     flex-direction: column;
   }
 
-  .details {
+  .container__div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -382,7 +382,12 @@ img {
         line-height: 56px;
         margin-bottom: 16px;
         @media (max-width: 1100px) {
-          margin-bottom: 0;
+          margin-bottom: 10px;
+          font-size: 36px;
+        }
+        @media (max-width: 1100px) {
+          margin-bottom: 6px;
+          font-size: 30px;
         }
       }
       p {
@@ -396,6 +401,10 @@ img {
 
 .benefits {
   padding: 128px 0;
+
+  @media (max-width: 720px) {
+    padding: 64px 0;
+  }
 
   .container {
     flex-direction: column;
@@ -476,6 +485,7 @@ img {
 
     @media (max-width: 1100px) {
       flex-direction: column;
+      padding-top: 30px;
     }
 
     .stats {
@@ -490,6 +500,13 @@ img {
         line-height: 56px;
         letter-spacing: 0;
         color: $text-dark;
+
+        @media (max-width: 1100px) {
+          font-size: 30px;
+        }
+        @media (max-width: 720px) {
+          font-size: 26px;
+        }
       }
       p {
         font-weight: 400;
@@ -515,6 +532,11 @@ img {
           height: 32px;
         }
       }
+
+      @media (max-width: 720px) {
+        flex-direction: column;
+        gap: 2rem;
+      }
     }
   }
 }
@@ -522,6 +544,10 @@ img {
 .our-team {
   padding: 128px 0;
   background-color: $bg-light;
+
+  @media (max-width: 720px) {
+    padding: 64px 0;
+  }
 
   .container {
     flex-direction: column;
@@ -781,6 +807,9 @@ img {
     display: flex;
     align-items: center;
     gap: 2rem;
+    @media (max-width: 720px) {
+      gap: 0.75rem;
+    }
 
     &--item {
       font-size: 1rem;
@@ -789,7 +818,7 @@ img {
         font-size: 0.75rem;
       }
       @media (max-width: 720px) {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
       }
       a {
         color: $text-dark;
@@ -798,6 +827,9 @@ img {
         font-weight: 500;
         &:hover {
           color: #eee;
+        }
+        @media (max-width: 720px) {
+          line-height: 20px;
         }
       }
     }
