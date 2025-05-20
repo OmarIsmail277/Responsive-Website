@@ -684,10 +684,12 @@ img {
 }
 @media (max-width: 720px) {
   .footer__container .wave .contact__details {
-    width: 80%;
+    width: 60%;
     font-size: 13px;
     gap: 5px;
     padding: 10px;
+    align-items: center;
+    text-align: center;
   }
 }
 @media (max-width: 600px) {
